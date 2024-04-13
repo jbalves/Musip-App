@@ -4,18 +4,9 @@
     android:viewportWidth="24.0"
     android:viewportHeight="24.0">
 
-    <rect
-        android:width="4dp"
-        android:height="14dp"
-        android:x="6dp"
-        android:y="5dp"
-        android:fillColor="@android:color/white" />
-
-    <rect
-        android:width="4dp"
-        android:height="14dp"
-        android:x="14dp"
-        android:y="5dp"
-        android:fillColor="@android:color/white" />
+    <!-- Path for Pause Icon -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M6,19h4V5H6v14zm8-14v14h4V5h-4z"/>
 
 </vector>

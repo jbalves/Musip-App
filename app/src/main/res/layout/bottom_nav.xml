@@ -4,7 +4,8 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:background="@color/colorPrimary"
-    android:padding="8dp">
+    android:padding="8dp"
+    android:baselineAligned="false">
 
     <!-- Home Button -->
     <LinearLayout
@@ -12,7 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:baselineAligned="false">
 
         <ImageButton
             android:id="@+id/btnHome"
@@ -35,7 +37,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:baselineAligned="false">
 
         <ImageButton
             android:id="@+id/btnSearch"
@@ -58,7 +61,8 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:baselineAligned="false">
 
         <ImageButton
             android:id="@+id/btnLibrary"
