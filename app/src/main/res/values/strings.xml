@@ -9,4 +9,6 @@
     <string name="album_art">album art</string>
     <string name="song_title">Song Title</string>
     <string name="artist">Artist</string>
+    <string name="image_algum_art">Image algum art</string>
+    <string name="button_play_pause">Button play pause</string>
 </resources>
