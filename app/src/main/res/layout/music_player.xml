@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageAlbumArt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/placeholder_album_art"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/album_art" />
+
+    <TextView
+        android:id="@+id/textSongTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageAlbumArt"
+        android:layout_centerHorizontal="true"
+        android:text="Song Title"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textSongTitle"
+        android:layout_centerHorizontal="true"
+        android:text="Artist"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textArtist"
+        android:layout_marginTop="16dp"
+        android:thumb="@drawable/ic_seek_thumb"
+        android:progress="0"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:thumbOffset="4dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutPlayerControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/btnPrevious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_previous"
+            android:contentDescription="@string/previous" />
+
+        <ImageButton
+            android:id="@+id/btnPlayPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play"
+            android:contentDescription="@string/play_pause" />
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_next"
+            android:contentDescription="@string/next" />
+
+    </LinearLayout>
+
+</RelativeLayout>

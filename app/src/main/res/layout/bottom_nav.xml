@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary"
+    android:padding="8dp">
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_home"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/home" />
+
+    <ImageButton
+        android:id="@+id/btnSearch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_search"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/search" />
+
+    <ImageButton
+        android:id="@+id/btnLibrary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_library"
+        android:background="?attr/selectableItemBackground"
+        android:contentDescription="@string/library" />
+
+</LinearLayout>
