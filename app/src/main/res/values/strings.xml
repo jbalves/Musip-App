@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Musip App</string>
-    <string name="home">home</string>
-    <string name="search">search</string>
-    <string name="library">library</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="library">Library</string>
     <string name="previous">previous</string>
     <string name="play_pause">play pause</string>
     <string name="next">next</string>

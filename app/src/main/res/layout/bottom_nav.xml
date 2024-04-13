@@ -6,31 +6,73 @@
     android:background="@color/colorPrimary"
     android:padding="8dp">
 
-    <ImageButton
-        android:id="@+id/btnHome"
+    <!-- Home Button -->
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:src="@drawable/ic_home"
-        android:background="?attr/selectableItemBackground"
-        android:contentDescription="@string/home" />
+        android:gravity="center"
+        android:orientation="vertical">
 
-    <ImageButton
-        android:id="@+id/btnSearch"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:src="@drawable/ic_search"
-        android:background="?attr/selectableItemBackground"
-        android:contentDescription="@string/search" />
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/home" />
 
-    <ImageButton
-        android:id="@+id/btnLibrary"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <!-- Search Button -->
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:src="@drawable/ic_library"
-        android:background="?attr/selectableItemBackground"
-        android:contentDescription="@string/library" />
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/search" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <!-- Library Button -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnLibrary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_library"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/library" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/library"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
 
 </LinearLayout>
