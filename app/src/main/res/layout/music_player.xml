@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/imageAlbumArt"
         android:layout_centerHorizontal="true"
-        android:text="Song Title"
+        android:text="@string/song_title"
         android:textSize="18sp"
         android:textColor="@android:color/black" />
 
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textSongTitle"
         android:layout_centerHorizontal="true"
-        android:text="Artist"
+        android:text="@string/artist"
         android:textSize="14sp"
         android:textColor="@android:color/darker_gray" />
 
